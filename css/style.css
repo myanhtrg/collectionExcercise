@@ -1,0 +1,130 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    background-image: url(../images/heartBG);
+    max-width: 1000px;
+    font-family: Playwrite HU;
+    color: beige;
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header {
+    font-family: Playwrite HU;
+    text-align: center;
+    background-color: #f37e9f;
+    color: beige;
+}
+footer {
+    background-color: #dd7fee;
+    width: 100%;
+    margin: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+}
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    background-color: #f37e9f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding: 10px;
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+
+    font-size: 14pt;
+    padding: 10px;
+}
+
+a {
+    color: #e9e254;
+}
+
+
+/* CLASSES & IDS */ 
+.meo1 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo2 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo3 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo4 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo5 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align:left ; 
+    flex-basis: 30%;
+}
+.meo6 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo7 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo8 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+.meo9 {
+    background-color: #E80C6B;
+    border: 2px;
+    margin: 5px;
+    text-align: left; 
+    flex-basis: 30%;
+}
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+
